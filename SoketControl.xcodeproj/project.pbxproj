@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188D2E622091639A00FE5998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E612091639A00FE5998 /* AppDelegate.m */; };
+		188D2E652091639A00FE5998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E642091639A00FE5998 /* ViewController.m */; };
+		188D2E682091639A00FE5998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E662091639A00FE5998 /* Main.storyboard */; };
+		188D2E6A209163AA00FE5998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E69209163AA00FE5998 /* Assets.xcassets */; };
+		188D2E6D209163AA00FE5998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E6B209163AA00FE5998 /* LaunchScreen.storyboard */; };
+		188D2E70209163AA00FE5998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E6F209163AA00FE5998 /* main.m */; };
+		E9A220979A0688DA2B82C964 /* Pods_SoketControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE11CA97E3DE756346B41BBA /* Pods_SoketControl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188D2E5D2091639A00FE5998 /* SoketControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoketControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188D2E602091639A00FE5998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188D2E612091639A00FE5998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188D2E632091639A00FE5998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188D2E642091639A00FE5998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188D2E672091639A00FE5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188D2E69209163AA00FE5998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188D2E6C209163AA00FE5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188D2E6E209163AA00FE5998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188D2E6F209163AA00FE5998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A057DEC7BB5C9FEB0CE87B21 /* Pods-SoketControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoketControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoketControl/Pods-SoketControl.release.xcconfig"; sourceTree = "<group>"; };
+		C0D43EF4283BB2FE51421DA7 /* Pods-SoketControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoketControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoketControl/Pods-SoketControl.debug.xcconfig"; sourceTree = "<group>"; };
+		EE11CA97E3DE756346B41BBA /* Pods_SoketControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoketControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188D2E5A2091639A00FE5998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A220979A0688DA2B82C964 /* Pods_SoketControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D2E542091639A00FE5998 = {
+			isa = PBXGroup;
+			children = (
+				188D2E5F2091639A00FE5998 /* SoketControl */,
+				188D2E5E2091639A00FE5998 /* Products */,
+				1A629D2EDF1FF01092AB25C9 /* Pods */,
+				56589F4605D7D62342EB2617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188D2E5E2091639A00FE5998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188D2E5D2091639A00FE5998 /* SoketControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188D2E5F2091639A00FE5998 /* SoketControl */ = {
+			isa = PBXGroup;
+			children = (
+				188D2E602091639A00FE5998 /* AppDelegate.h */,
+				188D2E612091639A00FE5998 /* AppDelegate.m */,
+				188D2E632091639A00FE5998 /* ViewController.h */,
+				188D2E642091639A00FE5998 /* ViewController.m */,
+				188D2E662091639A00FE5998 /* Main.storyboard */,
+				188D2E69209163AA00FE5998 /* Assets.xcassets */,
+				188D2E6B209163AA00FE5998 /* LaunchScreen.storyboard */,
+				188D2E6E209163AA00FE5998 /* Info.plist */,
+				188D2E6F209163AA00FE5998 /* main.m */,
+			);
+			path = SoketControl;
+			sourceTree = "<group>";
+		};
+		1A629D2EDF1FF01092AB25C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D43EF4283BB2FE51421DA7 /* Pods-SoketControl.debug.xcconfig */,
+				A057DEC7BB5C9FEB0CE87B21 /* Pods-SoketControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56589F4605D7D62342EB2617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE11CA97E3DE756346B41BBA /* Pods_SoketControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188D2E5C2091639A00FE5998 /* SoketControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188D2E73209163AA00FE5998 /* Build configuration list for PBXNativeTarget "SoketControl" */;
+			buildPhases = (
+				9B127F44EAC3E22CE51CEF19 /* [CP] Check Pods Manifest.lock */,
+				188D2E592091639A00FE5998 /* Sources */,
+				188D2E5A2091639A00FE5998 /* Frameworks */,
+				188D2E5B2091639A00FE5998 /* Resources */,
+				8494C1DA0C79B6C211A49191 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoketControl;
+			productName = SoketControl;
+			productReference = 188D2E5D2091639A00FE5998 /* SoketControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188D2E552091639A00FE5998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = hebiao;
+				TargetAttributes = {
+					188D2E5C2091639A00FE5998 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 188D2E582091639A00FE5998 /* Build configuration list for PBXProject "SoketControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188D2E542091639A00FE5998;
+			productRefGroup = 188D2E5E2091639A00FE5998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188D2E5C2091639A00FE5998 /* SoketControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188D2E5B2091639A00FE5998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D2E6D209163AA00FE5998 /* LaunchScreen.storyboard in Resources */,
+				188D2E6A209163AA00FE5998 /* Assets.xcassets in Resources */,
+				188D2E682091639A00FE5998 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8494C1DA0C79B6C211A49191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoketControl/Pods-SoketControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoketControl/Pods-SoketControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B127F44EAC3E22CE51CEF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoketControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188D2E592091639A00FE5998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D2E652091639A00FE5998 /* ViewController.m in Sources */,
+				188D2E70209163AA00FE5998 /* main.m in Sources */,
+				188D2E622091639A00FE5998 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188D2E662091639A00FE5998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D2E672091639A00FE5998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188D2E6B209163AA00FE5998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D2E6C209163AA00FE5998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188D2E71209163AA00FE5998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188D2E72209163AA00FE5998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188D2E74209163AA00FE5998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D43EF4283BB2FE51421DA7 /* Pods-SoketControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86ZJQX55NA;
+				INFOPLIST_FILE = SoketControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hebiao.SoketControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188D2E75209163AA00FE5998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A057DEC7BB5C9FEB0CE87B21 /* Pods-SoketControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86ZJQX55NA;
+				INFOPLIST_FILE = SoketControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hebiao.SoketControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188D2E582091639A00FE5998 /* Build configuration list for PBXProject "SoketControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D2E71209163AA00FE5998 /* Debug */,
+				188D2E72209163AA00FE5998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188D2E73209163AA00FE5998 /* Build configuration list for PBXNativeTarget "SoketControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D2E74209163AA00FE5998 /* Debug */,
+				188D2E75209163AA00FE5998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188D2E552091639A00FE5998 /* Project object */;
+}
